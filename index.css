@@ -1,0 +1,102 @@
+/* Using Belanosima and Poppins Font  */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Poppins:wght@500;700&display=swap');
+
+/* font-family: 'Belanosima', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #262222;
+    color: white;
+}
+
+/* Navbar section  */
+.prim-color {
+    background-color: #fae8e0;
+}
+
+a span {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.5rem;
+}
+
+button span i {
+    color: #373739;
+    font-size: 2rem;
+}
+
+/* offcanvas section and card Heading  */
+h5 {
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Heading Section  */
+#heading {
+    margin-top: 4rem;
+}
+
+/* Header Serach bar  */
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 2.8rem;
+    border-radius: 20px;
+    padding: 0 20px !important;
+    font-size: 1.2rem;
+}
+
+/* Card section  */
+#card {
+    background-color: #3d3d3d;
+    padding: 10px;
+    color: white;
+}
+
+#card img {
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+}
+
+
+
+/* meal details container */
+#meal-details{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #3d3d3d;
+}
+#meal-header{
+    width: 70%;
+    margin: auto;
+}
+#meal-thumbnail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+#meal-instruction{
+    margin: auto;
+    text-align: center;
+}
+
+/* favourites offcanvus */
+#favourites-body{
+    background-color:#262222 ;
+}
